@@ -34,7 +34,7 @@ const getStockPrice = (ticker) => {
 const menu = () => {
   rl.question('To check a stock price, enter the code. To quit, press 1.\n', 
     (answer) => {
-    if (answer == '1') { 
+    if (answer === '1') { 
       console.log("Goodbye!")
       return rl.close()
     }
