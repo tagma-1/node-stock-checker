@@ -1,0 +1,12 @@
+{
+  "name": "node-stock-checker",
+  "version": "1.0.0",
+  "description": "Some basic Node.js terminal apps to check stock prices via API",
+  "main": "index.js",
+  "repository": "https://github.com/tagma-1/node-stock-checker",
+  "author": "Tagma-1 <31788490+tagma-1@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
